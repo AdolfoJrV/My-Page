@@ -1,0 +1,200 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-image: url(photos/texture02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: silver;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.page01,
+.page02,
+.page03 {
+  width: 100%;
+  height: 16in;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  background-color: white;
+  place-items: center;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.profile-photo {
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
+.education h4 {
+  margin-bottom: 15px;
+}
+
+.position-date,
+.program-date {
+  overflow: auto;
+}
+
+.position-date h3,
+.program-date h3 {
+  margin: 0px;
+}
+
+.first-page-last-ul {
+  margin-bottom: 60px;
+}
+
+.first-page-h4 {
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.second-page-h4 {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.second-page-h2 {
+  margin-top: 60px;
+}
+
+.left-justify {
+  float: left;
+}
+
+.date {
+  float: right;
+}
+
+#designation {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.contact-info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.icons {
+  width: 2%;
+  margin: 0px 5px 0px 0px;
+}
+
+.my-links .icons {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.contact-info li {
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.personal-projects span {
+  font-weight: bold;
+}
+
+.career-goal,
+.work-experience,
+.skills,
+.education,
+.personal-projects,
+.about-me {
+  width: 85%;
+  margin: 0px auto;
+}
+
+.technical-skills {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.soft-skills {
+  width: 90%;
+  margin-left: 40px;
+}
+
+td {
+  position: relative;
+  padding-left: 15px;
+}
+
+.soft-skills tr td:nth-child(1) {
+  width: 300px;
+}
+
+.soft-skills tr td:nth-child(2) {
+  width: 165px;
+}
+
+td::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+p {
+  text-align: justify;
+}
+
+.career-goal > p {
+  text-align: justify;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.work-experience ul,
+.about-me ul {
+  text-align: justify;
+  padding-left: 15px;
+}
+
+.work-experience li,
+.about-me li {
+  list-style: circle;
+  margin-bottom: 5px;
+}
+
+.my-links {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.my-links a {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
